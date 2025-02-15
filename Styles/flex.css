@@ -1,0 +1,173 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin: 10px;
+}
+
+/* Flexbox 1 */
+.flexOne {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexOne > .square {
+    margin: 5px;
+}
+
+/* Flexbox 2 */
+.flexTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexTwo > .square {
+    margin: 2px;
+}
+
+/* Flexbox 3 */
+.flexThree {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flexThree > .square {
+    margin: 2px;
+}
+
+/* Flexbox 4 */
+.flexFour {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    width: 350px;
+}
+
+.flexFour > .square {
+    background-color: #3d8b6d;
+    margin: 5px;
+}
+
+/* Flexbox 5 */
+.flexFive {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+}
+
+.flexFive .item{
+    background-color: #0b6643;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
+.flexFive #grow{
+    flex-grow: 2;
+}
+
+/* Flexbox 6 */
+.flexSix {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    background-color: #f1f1f1;
+}
+
+.flexSix .one {
+    display: flex;
+    justify-content: space-around;
+
+}
+.flexSix .two{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #d6d6d6;
+}
+
+.flexSix .three {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Flexbox 7 */
+.flexSeven {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 400px;
+    width: 500px;
+    background-color: #f1f1f1; /* Para que se vea como en el ejemplo*/
+}
+
+.flexSeven .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.flexSeven .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #d6d6d6; /* Para que se vea como en el ejemplo*/
+}
+
+.flexSeven .three{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.flexSeven .four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d6d6d6; /* Para que se vea como en el ejemplo*/
+}
+
+/* Flexbox 8 */
+.flexEight {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-color: #eeeeee;
+    width: 300px;
+}
+
+.flexEight .one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flexEight .two {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.flexEight .three {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* Flexbox 9*/
+.flexNine {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 250px;
+    background-color: #eeeeee;
+    align-items:flex-start;
+    justify-content: space-evenly;
+}
+
+.flexNine #special {
+    align-self: flex-end;
+}
